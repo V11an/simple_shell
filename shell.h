@@ -11,5 +11,6 @@
 
 int execute_command(char *command);
 int parse_arguments(char *command, char **args);
+int exit_command(char *command);
 
 #endif /* SHELL_H */
