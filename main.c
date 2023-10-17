@@ -1,5 +1,17 @@
 #include "shell.h"
 
+/**
+ * main - Entry point of the shell program.
+ *
+ * Description:
+ * This function implements a basic shell. It continuously prompts the user
+ * for input, reads the command from standard input, and executes it. If the
+ * command is not found, it prints an error message to stderr. The program
+ * exits when the user inputs an EOF character (typically Ctrl+D).
+ *
+ * Return: 0 on successful execution.
+ */
+
 int main(void)
 {
 	char *line = NULL;
