@@ -17,7 +17,7 @@ int main(void)
 		args = parse_line(line);
 		status = execute_command(args);
 		free_memory(line, args);
-	} while (status);
+	} while (status == 1);
 
 	return (EXIT_SUCCESS);
 }
